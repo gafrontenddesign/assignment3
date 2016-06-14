@@ -61,6 +61,18 @@ body {
 /*******************************************/
 
 /* Center the container */
+#container_elementOne {
+  width: 960px;
+  margin: auto;
+}
+
+header {
+  background: #033048;
+  color: #f9e42;
+  height: 80px;
+  margin-left: -150px;
+  margin-right: -160px;
+}
 
 header .listOne {
   display: flex;
@@ -78,25 +90,6 @@ header .listOne a {
   text-decoration: none;
 }
 
-article p::first-letter {
-  color: #606161;
-  font-size: 50px;
-  font-weight: 900px;
-  float: left;
-}
-
-#container_elementOne {
-  width: 960px;
-  margin: auto;
-}
-
-header {
-  background: #033048;
-  color: #f9e42;
-  height: 80px;
-  margin-left: -150px;
-  margin-right: -160px;
-}
 
 .logo {
   font-size: 36px;
@@ -104,8 +97,6 @@ header {
   padding-left: 150px;
   padding-top: 10px;
 }
-
-
 
 
 main {
@@ -127,17 +118,18 @@ h1 {
   word-spacing: 5px;
 }
 
+article p::first-letter {
+  color: #606161;
+  font-size: 50px;
+  font-weight: 900px;
+  float: left;
+}
+
 p {
   color: #606161;
   padding-bottom: 70px;
   font-size: 18px;
   font-weight: 100px;
-}
-
-#subContainer p .firstLetter {
-  font-size: 200%;
-  color: #606161;
-  font-weight: 900px;
 }
 
 .readMore {
@@ -169,6 +161,8 @@ p {
 
 .listTwo .sub_headings {
   font-size: 22px;
+  color: #606161;
+  font-weight: 100px;
 }
 
 .listTwo .heading_two {
